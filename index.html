@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Bootstrap CSS Only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -11,12 +12,31 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/459f5543da.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <title>WADco Media</title>
   </head>
   <body>
@@ -56,30 +76,120 @@
     </nav>
 
     <!-- TITLE -->
-    <div class="title-mission-statement">
-      <h1>Welcome to WADco Media</h1>
-      <p>We create entertaining podcasts for pop culture lovers of all ages.</p>
-      <button>Facebook</button>
-      <button>Youtube</button>
-      <button>Twitch</button>
-    </div>
-    <div class="title-image">
-      <img src="imgs/title img.PNG" alt="Josh and Brandon" />
-    </div>
+    <section id="title">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="title-mission-statement col-lg-6">
+            <h1 class="title-headline">Welcome to WADco Media</h1>
+            <p>
+              We create entertaining podcasts for pop culture lovers of all
+              ages. Check out our
+              <a
+                class="patreon-link"
+                href="https://www.patreon.com/wadco"
+                target="_blank"
+                >patreon</a
+              >
+              for exclusive behind the scenes content!
+            </p>
+            <div class="title-btns">
+              <button class="btn btn-outline-primary">Facebook</button>
+              <button class="btn btn-outline-danger">Youtube</button>
+              <button class="btn btn-outline-dark">Twitch</button>
+            </div>
+          </div>
+          <div class="col-lg-6 img-container">
+            <img
+              src="imgs/title img.PNG"
+              alt="Josh and Brandon"
+              class="title-image col-lg-6"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- THE SHOWS -->
-    <section class="features">
-      <h3>The WADcast</h3>
-      <p>
-        Join Brandon and Josh as they discuss the good and bad of showbusiness.
-      </p>
+    <section id="shows">
+      <div class="container-fluid">
+        <h2>the shows</h2>
+        <a class="show-link" href="https://thewadcast.com/" target="_blank">
+          <div class="show-container row">
+            <div class="col-lg-6">
+              <img
+                class="show-img"
+                src="imgs/wadcast logo.png"
+                alt="WADcast logo"
+              />
+            </div>
+            <div class="wadcast-info col-lg-6">
+              <h3>The WADcast</h3>
+              <p>
+                Join Brandon and Josh every Friday night as they talk about
+                writers, actors, directors, and every job in between! They also
+                touch on hot button issues in the entertainment world and
+                discuss the good and the bad of Hollywood.
+              </p>
+            </div>
+          </div>
+        </a>
 
-      <h3>The Movie Potluck</h3>
-      <p>
-        Pull up a seat! Jen and her guests gather around the table and discuss
-        movies centered around a theme. Afterwards they offer food and drink
-        recipes based on the featured films.
-      </p>
+        <a class="show-link" href="https://moviesandmeals.com/" target="_blank">
+          <div class="show-container row">
+            <div class="tmp-info col-lg-6">
+              <h3>The Movie Potluck</h3>
+              <p>
+                Pull up a seat! Jen and her guests gather around the table and
+                discuss movies centered around a theme. Afterwards they offer
+                food and drink recipes based on the featured films.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <img
+                class="show-img"
+                src="imgs/the movie potluck logo.png"
+                alt="The Movie Potluck logo"
+              />
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- MERCH -->
+    <section id="merch">
+      <div class="merch-imgs">
+        <img src="imgs/t-shirt.PNG" alt="Writer t-shirt" />
+        <img src="imgs/wadcast mug.PNG" alt="WADcast mug" />
+        <img src="imgs/wadkins sticker.PNG" alt="Wadkins sticker" />
+      </div>
+      <div class="merch-description">
+        <h2>merch</h2>
+        <p>
+          T-shirts, stickers, mugs and more! Show your love with some original
+          WADco merch!
+        </p>
+      </div>
+    </section>
+
+    <!-- MEET THE TEAM -->
+    <section id="team">
+      <h2>the hosts</h2>
+      <div class="josh">
+        <img src="imgs/josh.jpg" alt="Joshua Chitty" />
+        <h3>Josh</h3>
+        <p>
+          Joshua Chitty is a writer and actor currently residing in
+          Jacksonville, Florida. He enjoys playing crappy video games and
+          watching movies of varying levels of quality.
+        </p>
+      </div>
+    </section>
+
+    <!-- SOCIALS -->
+    <section id="socials">
+      <h2>socials</h2>
+      <div class="socials"></div>
     </section>
   </body>
 </html>
