@@ -21,7 +21,9 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top wadco-navbar"
+    >
       <a class="navbar-brand">WADco Media</a>
       <button
         class="navbar-toggler"
@@ -37,13 +39,13 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#title">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">The Shows</a>
+            <a class="nav-link" href="#shows">The Shows</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Merch</a>
+            <a class="nav-link" href="#merch">Merch</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Meet the Team</a>
@@ -56,6 +58,7 @@
     </nav>
 
     <!-- TITLE -->
+<<<<<<< Updated upstream
     <div class="title-mission-statement">
       <h1>Welcome to WADco Media</h1>
       <p>We create entertaining podcasts for pop culture lovers of all ages.</p>
@@ -73,6 +76,246 @@
       <p>
         Join Brandon and Josh as they discuss the good and bad of showbusiness.
       </p>
+=======
+    <section id="title">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="title-mission-statement col-lg-6">
+            <h1 class="title-headline">Welcome to WADco Media</h1>
+            <p>
+              We create entertaining podcasts for pop culture lovers of all
+              ages. Check out our
+              <a
+                class="wadco-link"
+                href="https://www.patreon.com/wadco"
+                target="_blank"
+                >patreon</a
+              >
+              for exclusive behind the scenes content!
+            </p>
+            <div class="title-btns">
+              <a
+                class="fa-brands fa-facebook"
+                href="https://www.facebook.com/semicorestudios"
+                target="_blank"
+              ></a>
+              <a
+                class="fa-brands fa-youtube"
+                href="https://www.youtube.com/channel/UCuj3sxPixOW1Ls5k_JVx4Sg"
+                target="_blank"
+              ></a>
+              <a
+                class="fa-brands fa-twitch"
+                href="https://www.twitch.tv/skitcomic"
+                target="_blank"
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-6 img-container">
+            <img
+              src="imgs/title img.PNG"
+              alt="Josh and Brandon"
+              class="title-image col-lg-6"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE SHOWS -->
+    <section id="shows">
+      <div class="container-fluid">
+        <h2>the shows</h2>
+        <div class="show-container row">
+          <div class="col-lg-6">
+            <img
+              class="show-img"
+              src="imgs/wadcast logo.png"
+              alt="WADcast logo"
+            />
+          </div>
+          <div class="wadcast-info col-lg-6">
+            <h3>The WADcast</h3>
+            <p>
+              <a
+                class="wadco-link"
+                href="https://thewadcast.com/"
+                target="_blank"
+                >Join Brandon and Josh</a
+              >
+              every Friday night as they talk about writers, actors, directors,
+              and every job in between! They also touch on hot button issues in
+              the entertainment world and discuss the good and the bad of
+              Hollywood.
+            </p>
+          </div>
+        </div>
+
+        <div class="show-container row">
+          <div class="tmp-info col-lg-6">
+            <h3>The Movie Potluck</h3>
+            <p>
+              <a
+                class="wadco-link"
+                href="https://moviesandmeals.com/"
+                target="_blank"
+                >Pull up a seat!</a
+              >
+              Jen and her guests gather around the table and discuss movies
+              centered around a theme. Afterwards they offer food and drink
+              recipes based on the featured films.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="show-img"
+              src="imgs/the movie potluck logo.png"
+              alt="The Movie Potluck logo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MERCH -->
+    <section id="merch">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="merch-imgs col-lg-6">
+            <img
+              class="merch-img hoodie"
+              src="imgs/hoodie transparent.png"
+              alt="WADcast hoodie"
+            />
+            <img
+              class="merch-img shirt"
+              src="imgs/shirt transparent.png"
+              alt="Wadkins shirt"
+            />
+            <img
+              class="merch-img phone"
+              src="imgs/phone transparent.png"
+              alt="Phone case"
+            />
+          </div>
+          <div class="merch-description col-lg-6">
+            <h2>merch</h2>
+            <p>
+              T-shirts, stickers, mugs and more! Show your love with some
+              original WADco
+              <a
+                class="wadco-link"
+                href="https://www.teepublic.com/user/semicore"
+                target="_blank"
+                >merch</a
+              >!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEET THE TEAM -->
+    <section id="team">
+      <div class="container-fluid">
+        <h2>the hosts</h2>
+        <div class="josh row">
+          <div class="col-lg-6">
+            <img class="profile-img" src="imgs/josh.jpg" alt="Joshua Chitty" />
+          </div>
+          <div class="profile-desc col-lg-6">
+            <h3>Josh</h3>
+            <p>
+              Joshua Chitty is a writer and actor currently residing in
+              Jacksonville, Florida. He enjoys playing crappy video games and
+              watching movies of varying levels of quality.
+            </p>
+          </div>
+        </div>
+        <div class="brandon row">
+          <div class="profile-desc col-lg-6">
+            <h3>Brandon</h3>
+            <p>
+              Brandon is a writer/director currently residing in Long Beach,
+              California. He is one of the co-hosts for the WADcast and spends
+              the rest of his time adoring the love of his life... Indiana
+              Jones.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="profile-img"
+              src="imgs/brandon.jpg"
+              alt="Brandon Junk"
+            />
+          </div>
+        </div>
+        <div class="josh row">
+          <div class="col-lg-6">
+            <img class="profile-img" src="imgs/jen.jpg" alt="Jen" />
+          </div>
+          <div class="profile-desc col-lg-6">
+            <h3>Jen</h3>
+            <p>
+              Jen currently lives in Hawaii and is the host of WADco Media's The
+              Movie Potluck. Jen also runs the
+              <a
+                class="wadco-link"
+                href="https://moviesandmeals.com/"
+                target="_blank"
+                >MoviesandMeals</a
+              >
+              website and is also a contributor to the WADcast.
+            </p>
+          </div>
+        </div>
+        <div class="brandon row">
+          <div class="profile-desc col-lg-6">
+            <h3>Kinte</h3>
+            <p>
+              Kinte is a radio host/film maker who currently resides in Los
+              Angeles, California. He is a frequent contributor to the Movie
+              Potluck and The WADcast.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img class="profile-img" src="imgs/kinte.jpg" alt="Kinte" />
+          </div>
+        </div>
+        <div class="josh row">
+          <div class="col-lg-6">
+            <img class="profile-img" src="imgs/tory.jpg" alt="Tory" />
+          </div>
+          <div class="profile-desc col-lg-6">
+            <h3>Tory</h3>
+            <p>
+              Tory is a podcaster currently residing in Parts Unknown. She hosts
+              the
+              <a
+                class="wadco-link"
+                href="https://www.facebook.com/TheInfectiousGeek"
+                target="_blank"
+                >Infectious Geek</a
+              >
+              and is a frequent contributor to the Movie Potluck.
+            </p>
+          </div>
+        </div>
+        <div class="brandon row">
+          <div class="profile-desc col-lg-6">
+            <h3>Betty</h3>
+            <p>
+              Betty is currently residing in...the United States? Maybe? She is
+              a frequent contributor to the Movie Potluck.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img class="profile-img" src="imgs/betty.jpg" alt="Kinte" />
+          </div>
+        </div>
+      </div>
+    </section>
+>>>>>>> Stashed changes
 
       <h3>The Movie Potluck</h3>
       <p>

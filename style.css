@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --lightest-non-white: #eeebdd;
+  --primary-color: #ce1212;
+  --secondary-color: #810000;
+  --darkest: #1b1717;
+}
+
+/* CONTAINERS */
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: var(--darkest);
+}
+
+h2,
+h3 {
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* NAVBAR */
+.wadco-navbar {
+  padding: 1% 3%;
+  background-color: var(--darkest);
+}
+
+/* TITLE */
+#title {
+  background-color: var(--lightest-non-white);
+}
+
+.title-headline {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+#title p {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.wadco-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.wadco-link:hover {
+  color: var(--primary-color);
+  text-shadow: 0 0 1rem #ce12126c;
+}
+
+.title-btns {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+#title .fa-brands {
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--darkest);
+}
+
+#title .fa-brands:hover {
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+.img-container {
+  position: relative;
+}
+
+.title-image {
+  width: 85%;
+  border-radius: 1rem;
+
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+/* THE SHOWS */
+.show-img {
+  width: 80%;
+}
+
+.show-container {
+  padding: 2%;
+  border-radius: 2rem;
+  margin: 3% 0;
+  transition: all 0.3s ease;
+}
+
+.show-container:hover {
+  box-shadow: 0 0.5rem 2rem #1b171717;
+}
+
+.show-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.show-link:hover {
+  color: black;
+}
+
+#shows .row {
+  align-items: center;
+}
+
+.wadcast-info {
+  text-align: right;
+}
+
+.tmp-info {
+  text-align: left;
+}
+
+/* MERCH */
+#merch {
+  background-color: var(--lightest-non-white);
+}
+
+.merch-imgs {
+  position: relative;
+}
+
+.merch-img {
+  width: 70%;
+  position: relative;
+}
+
+.merch-description {
+  align-self: center;
+  text-align: right;
+}
+
+.hoodie {
+  bottom: 10%;
+}
+
+.shirt {
+  position: absolute;
+  width: 55%;
+  right: 40%;
+  top: 20%;
+}
+
+.phone {
+  position: absolute;
+  width: 40%;
+  left: 55%;
+  top: 20%;
+}
+
+/* THE HOSTS */
+#team .row {
+  align-items: center;
+  justify-content: center;
+  padding: 5% 0;
+}
+
+.profile-img {
+  width: 15rem;
+  height: 12rem;
+  border-radius: 1.5rem;
+}
+
+.josh .profile-desc {
+  text-align: left;
+}
+
+.brandon .profile-desc {
+  text-align: right;
+}
