@@ -25,7 +25,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 7% 15%;
+  padding: 10% 15%;
 }
 
 /* NAVBAR */
@@ -193,4 +193,46 @@ h3 {
 
 .brandon .profile-desc {
   text-align: right;
+}
+
+/* SOCIALS */
+#socials {
+  background-color: var(--lightest-non-white);
+}
+
+#socials .container-fluid {
+  padding: 3% 15%;
+}
+
+#socials h2 {
+  font-size: 2.5rem;
+}
+
+.socials {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+#socials .fa-brands {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--darkest);
+  transition: all 0.3s ease;
+}
+
+#socials .fa-brands:hover {
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+/* FOOTER */
+footer .container-fluid {
+  padding: 3% 15% 1%;
+}
+
+footer {
+  font-size: 0.75rem;
 }
