@@ -5,17 +5,18 @@
 }
 
 :root {
-  --lightest-non-white: #faf5e4;
-  --primary-color: #ff6363;
-  --secondary-color: #f8b400;
-  --darkest: #125b50;
+  --lightest-non-white: #eeeeee;
+  --primary-color: #f8485e;
+  --secondary-color: #00c1d4;
+  --darkest: #512d6d;
+  --text: #212121;
 }
 
 /* CONTAINERS */
 body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  color: var(--darkest);
+  color: var(--text);
 }
 
 h2,
@@ -53,15 +54,15 @@ h3 {
 }
 
 .wadco-link {
-  color: var(--secondary-color);
+  color: var(--darkest);
   text-decoration: none;
   font-weight: 700;
   transition: all 0.2s ease;
 }
 
 .wadco-link:hover {
-  color: var(--secondary-color);
-  text-shadow: 0 0 1rem #f8b60083;
+  color: var(--darkest);
+  text-shadow: 0 0 1rem #512d6d73;
 }
 
 .title-btns {
