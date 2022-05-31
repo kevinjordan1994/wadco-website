@@ -5,10 +5,10 @@
 }
 
 :root {
-  --lightest-non-white: #eeebdd;
-  --primary-color: #ce1212;
-  --secondary-color: #810000;
-  --darkest: #1b1717;
+  --lightest-non-white: #faf5e4;
+  --primary-color: #ff6363;
+  --secondary-color: #f8b400;
+  --darkest: #125b50;
 }
 
 /* CONTAINERS */
@@ -53,15 +53,15 @@ h3 {
 }
 
 .wadco-link {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   text-decoration: none;
   font-weight: 700;
   transition: all 0.2s ease;
 }
 
 .wadco-link:hover {
-  color: var(--primary-color);
-  text-shadow: 0 0 1rem #ce12126c;
+  color: var(--secondary-color);
+  text-shadow: 0 0 1rem #f8b60083;
 }
 
 .title-btns {
@@ -179,6 +179,10 @@ h3 {
   align-items: center;
   justify-content: center;
   padding: 5% 0;
+}
+
+#team .container-fluid {
+  padding: 7% 15% 2%;
 }
 
 .profile-img {
