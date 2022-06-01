@@ -67,6 +67,7 @@ h3 {
 
 .title-btns {
   display: flex;
+  align-items: flex-start;
   gap: 1rem;
   margin-bottom: 1rem;
 }
@@ -98,7 +99,41 @@ h3 {
   transform: translate(50%, -50%);
 }
 
+@media (max-width: 1000px) {
+  /* #title .row {
+    justify-content: center;
+  } */
+
+  .title-headline {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .title-image {
+    width: 100%;
+    border-radius: 1rem;
+
+    position: relative;
+    /* top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%); */
+  }
+
+  .title-btns {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+}
+
 /* THE SHOWS */
+.mobile {
+  display: none;
+  padding-top: 7%;
+}
+
 .show-img {
   width: 80%;
 }
@@ -136,6 +171,19 @@ h3 {
 
 .tmp-info {
   text-align: left;
+}
+
+@media (max-width: 1000px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+
+  #shows h2 {
+    font-size: 2.75rem;
+  }
 }
 
 /* MERCH */
