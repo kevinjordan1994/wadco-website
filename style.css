@@ -259,6 +259,11 @@ h3 {
 }
 
 /* THE HOSTS */
+#team {
+  background-color: var(--darkest);
+  color: var(--lightest-non-white);
+}
+
 #team .row {
   align-items: center;
   justify-content: center;
