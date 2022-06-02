@@ -106,7 +106,7 @@ h3 {
 
   .title-headline {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     padding-top: 4rem;
     margin-bottom: 1rem;
   }
@@ -143,11 +143,12 @@ h3 {
   border-radius: 2rem;
   margin: 3% 0;
   transition: all 0.3s ease;
-}
-
-.show-container:hover {
   box-shadow: 0 0.5rem 2rem #1b171717;
 }
+
+/* .show-container:hover {
+  box-shadow: 0 0.5rem 2rem #1b171717;
+} */
 
 .show-link {
   display: block;
@@ -231,7 +232,7 @@ h3 {
 }
 
 #team .container-fluid {
-  padding: 7% 15% 2%;
+  padding: 7% 20% 2%;
 }
 
 .profile-img {
@@ -246,6 +247,21 @@ h3 {
 
 .brandon .profile-desc {
   text-align: right;
+}
+
+@media (max-width: 1000px) {
+  #team h2 {
+    font-size: 2.75rem;
+  }
+
+  #team h3 {
+    margin-bottom: 1rem;
+  }
+
+  #team p {
+    margin-top: 1rem;
+    line-height: 1.75;
+  }
 }
 
 /* SOCIALS */
@@ -287,5 +303,6 @@ footer .container-fluid {
 }
 
 footer {
+  background-color: var(--lightest-non-white);
   font-size: 0.75rem;
 }
