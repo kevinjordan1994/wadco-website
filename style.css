@@ -5,10 +5,10 @@
 }
 
 :root {
-  --lightest-non-white: #eeeeee;
-  --primary-color: #f8485e;
-  --secondary-color: #00c1d4;
-  --darkest: #512d6d;
+  --lightest-non-white: #ededed;
+  --primary-color: #f73859;
+  --secondary-color: #f1d18a;
+  --darkest: #232931;
   --text: #212121;
 }
 
@@ -38,6 +38,13 @@ h3 {
 /* TITLE */
 #title {
   background-color: var(--lightest-non-white);
+  color: var(--lightest-non-white);
+}
+
+.title-mission-statement {
+  background-color: var(--darkest);
+  padding: 3%;
+  border-radius: 2rem;
 }
 
 .title-headline {
@@ -45,24 +52,26 @@ h3 {
   font-weight: 800;
   text-align: left;
   margin-bottom: 2rem;
-  color: var(--primary-color);
+  line-height: 1.1;
+  color: var(--secondary-color);
 }
 
 #title p {
   font-size: 1.5rem;
   text-align: left;
+  line-height: 1.7;
 }
 
 .wadco-link {
-  color: var(--darkest);
+  color: var(--secondary-color);
   text-decoration: none;
   font-weight: 700;
   transition: all 0.2s ease;
 }
 
 .wadco-link:hover {
-  color: var(--darkest);
-  text-shadow: 0 0 1rem #512d6d73;
+  color: var(--secondary-color);
+  text-shadow: 0 0 1rem #f1d18a;
 }
 
 .title-btns {
@@ -75,13 +84,13 @@ h3 {
 #title .fa-brands {
   font-size: 2rem;
   text-decoration: none;
-  color: var(--darkest);
+  color: var(--secondary-color);
 }
 
 #title .fa-brands:hover {
+  color: var(--primary-color);
   font-size: 2rem;
   text-decoration: none;
-  color: var(--primary-color);
   transition: all 0.3s ease;
 }
 
