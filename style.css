@@ -53,7 +53,7 @@ h3 {
   text-align: left;
   margin-bottom: 2rem;
   line-height: 1.1;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 #title p {
@@ -88,7 +88,8 @@ h3 {
 }
 
 #title .fa-brands:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
+  text-shadow: 0 0 1rem #f1d08a75;
   font-size: 2rem;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -113,6 +114,10 @@ h3 {
     justify-content: center;
   } */
 
+  #title {
+    background-color: var(--darkest);
+  }
+
   .title-headline {
     text-align: center;
     font-size: 2.25rem;
@@ -130,6 +135,10 @@ h3 {
     transform: translate(50%, -50%); */
   }
 
+  #title p {
+    text-align: center;
+  }
+
   .title-btns {
     align-items: center;
     justify-content: center;
@@ -143,6 +152,10 @@ h3 {
   padding-top: 7%;
 }
 
+#shows p {
+  line-height: 1.7;
+}
+
 .show-img {
   width: 80%;
 }
@@ -152,12 +165,20 @@ h3 {
   border-radius: 2rem;
   margin: 3% 0;
   transition: all 0.3s ease;
-  box-shadow: 0 0.5rem 2rem #1b171717;
+  box-shadow: 0 0.5rem 2rem #23293169;
+
+  background-color: var(--darkest);
+  color: var(--lightest-non-white);
 }
 
 /* .show-container:hover {
   box-shadow: 0 0.5rem 2rem #1b171717;
 } */
+
+#shows img {
+  border: 0.25rem solid var(--secondary-color);
+  border-radius: 1rem;
+}
 
 .show-link {
   display: block;
@@ -213,6 +234,10 @@ h3 {
 .merch-description {
   align-self: center;
   text-align: right;
+  background-color: var(--darkest);
+  padding: 1rem;
+  border-radius: 1rem;
+  color: var(--lightest-non-white);
 }
 
 .hoodie {
