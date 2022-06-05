@@ -37,8 +37,12 @@ h3 {
 
 /* TITLE */
 #title {
-  background-color: var(--lightest-non-white);
+  background-color: var(--darkest);
   color: var(--lightest-non-white);
+}
+
+#title .container-fluid {
+  padding: 7% 15%;
 }
 
 .title-mission-statement {
@@ -100,7 +104,7 @@ h3 {
 }
 
 .title-image {
-  width: 85%;
+  width: 100%;
   border-radius: 1rem;
 
   position: absolute;
@@ -126,7 +130,7 @@ h3 {
   }
 
   .title-image {
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
 
     position: relative;
@@ -150,6 +154,14 @@ h3 {
 .mobile {
   display: none;
   padding-top: 7%;
+}
+
+#shows .container-fluid {
+  padding: 10% 15% 3%;
+}
+
+#shows {
+  background-color: var(--lightest-non-white);
 }
 
 #shows p {
@@ -210,10 +222,29 @@ h3 {
   }
   .mobile {
     display: block;
+    padding: 0;
   }
 
   #shows h2 {
     font-size: 2.75rem;
+  }
+
+  .show-container {
+    margin: 12% 0;
+    padding: 5% 1%;
+  }
+
+  .show-container:last-child {
+    margin: 0;
+  }
+
+  .wadcast-info,
+  .tmp-info {
+    text-align: center;
+  }
+
+  .merch-description {
+    margin-top: 10%;
   }
 }
 
@@ -285,6 +316,30 @@ h3 {
 }
 
 .brandon .profile-desc {
+  text-align: right;
+}
+
+#team .fa-brands {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+#team .fa-brands:hover {
+  color: var(--secondary-color);
+  text-shadow: 0 0 1rem #f1d08a75;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.host-socials {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.brandon .host-socials {
+  display: block;
   text-align: right;
 }
 
